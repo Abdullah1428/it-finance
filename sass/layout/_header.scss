@@ -304,12 +304,12 @@
             }
 
             .logo-img-main {
-                display: none;
+                display: inline-block;
                 @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
             }
             
             .logo-img-active {
-                display: inline-block;
+                display: none;
                 @include cubic-transition($delay: 0, $duration: 400ms, $property: (all));
             }
 
